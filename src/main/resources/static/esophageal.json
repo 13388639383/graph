@@ -1,0 +1,14 @@
+{"edges": [
+  {"source": "食管癌",  "target": "食管肿瘤", "label": "relation"},
+  {"source": "食管癌",  "target": "食管鳞癌", "label": "relation"},
+  {"source": "食管癌",  "target": "贲门癌", "label": "relation"}],
+  "secondary_edges": [
+    {"source": "食管肿瘤", "relation": "", "target": "放疗", "label": "property"},
+    {"source": "食管肿瘤", "relation": "", "target": "甲基苄基亚硝胺", "label": "property"},
+    {"source": "食管肿瘤", "relation": "", "target": "芬太尼", "label": "property"},
+    {"source": "食管鳞癌", "relation": "", "target": "恶性肿瘤", "label": "property"},
+    {"source": "食管鳞癌", "relation": "", "target": "细胞凋亡", "label": "property"},
+    {"source": "食管鳞癌", "relation": "", "target": "淋巴组织", "label": "property"},
+    {"source": "贲门癌", "relation": "", "target": "吻合口瘘", "label": "property"},
+    {"source": "贲门癌", "relation": "", "target": "开胸术", "label": "property"},
+    {"source": "贲门癌", "relation": "", "target": "贲门癌切除术", "label": "property"}]}

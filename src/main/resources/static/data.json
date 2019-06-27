@@ -1,0 +1,11 @@
+{"edges": [
+  {"source": "癌症热点分析",  "target": "乳腺癌", "label": "relation","url":"breast.html"},
+  {"source": "癌症热点分析",  "target": "肺癌", "label": "relation","url":"lung.html"},
+  {"source": "癌症热点分析",  "target": "胃癌", "label": "relation","url":"gastric.html"},
+  {"source": "癌症热点分析",  "target": "大肠癌", "label": "relation","url":"colorectal.html"},
+  {"source": "癌症热点分析",  "target": "卵巢癌", "label": "relation","url":"ovarian.html"},
+  {"source": "癌症热点分析",  "target": "肝癌", "label": "relation","url":"liver.html"},
+  {"source": "癌症热点分析",  "target": "前列腺癌", "label": "relation","url":"prostate.html"},
+  {"source": "癌症热点分析",  "target": "膀胱癌", "label": "relation","url":"bladder.html"},
+  {"source": "癌症热点分析",  "target": "食管癌", "label": "relation","url":"esophageal.html"},
+  {"source": "癌症热点分析",  "target": "宫颈癌", "label": "relation","url":"cervical.html"}]}

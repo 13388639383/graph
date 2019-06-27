@@ -1,0 +1,22 @@
+{"edges": [
+  {"source": "膀胱癌",  "target": "浸润性膀胱癌", "label": "relation"},
+  {"source": "膀胱癌",  "target": "浅表性膀胱癌", "label": "relation"},
+  {"source": "膀胱癌",  "target": "膀胱移行细胞癌", "label": "relation"},
+  {"source": "膀胱癌",  "target": "膀胱尿路上皮癌", "label": "relation"},
+  {"source": "膀胱癌",  "target": "膀胱肿瘤", "label": "relation"}],
+  "secondary_edges": [
+    {"source": "浸润性膀胱癌", "relation": "", "target": "经尿道膀胱肿瘤切除术", "label": "property"},
+    {"source": "浸润性膀胱癌", "relation": "", "target": "膀胱灌注", "label": "property"},
+    {"source": "浸润性膀胱癌", "relation": "", "target": "根治性膀胱切除术", "label": "property"},
+    {"source": "浅表性膀胱癌", "relation": "", "target": "吡柔比星", "label": "property"},
+    {"source": "浅表性膀胱癌", "relation": "", "target": "吡喃阿霉素", "label": "property"},
+    {"source": "浅表性膀胱癌", "relation": "", "target": "丝裂霉素", "label": "property"},
+    {"source": "膀胱移行细胞癌", "relation": "", "target": "VEGF", "label": "property"},
+    {"source": "膀胱移行细胞癌", "relation": "", "target": "TCC", "label": "property"},
+    {"source": "膀胱尿路上皮癌", "relation": "", "target": "FISH", "label": "property"},
+    {"source": "膀胱尿路上皮癌", "relation": "", "target": "肌层浸润", "label": "property"},
+    {"source": "膀胱尿路上皮癌", "relation": "", "target": "荧光原位杂交", "label": "property"},
+    {"source": "膀胱肿瘤", "relation": "", "target": "膀胱灌注", "label": "property"},
+    {"source": "膀胱肿瘤", "relation": "", "target": "细胞凋亡", "label": "property"},
+    {"source": "膀胱肿瘤", "relation": "", "target": "膀胱灌注化疗", "label": "property"},
+    {"source": "膀胱肿瘤", "relation": "", "target": "膀胱镜检查", "label": "property"}]}

@@ -1,0 +1,10 @@
+{"edges": [
+  {"source": "前列腺癌",  "target": "PSA", "label": "property"},
+  {"source": "前列腺癌",  "target": "雄激素", "label": "property"},
+  {"source": "前列腺癌",  "target": "BPH", "label": "property"},
+  {"source": "前列腺癌",  "target": "穿刺活检", "label": "property"},
+  {"source": "前列腺癌",  "target": "前列腺增生", "label": "property"},
+  {"source": "前列腺癌",  "target": "前列腺癌根治术", "label": "property"},
+  {"source": "前列腺癌",  "target": "前列腺增生", "label": "property"},
+  {"source": "前列腺癌",  "target": "性甾体", "label": "property"},
+  {"source": "前列腺癌",  "target": "前列腺癌骨转移", "label": "property"}]}

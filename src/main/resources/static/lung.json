@@ -1,0 +1,27 @@
+{"edges": [
+  {"source": "肺癌",  "target": "小细胞肺癌", "label": "relation"},
+  {"source": "肺癌",  "target": "非小细胞肺癌", "label": "relation"},
+  {"source": "肺癌",  "target": "原发性肺癌", "label": "relation"},
+  {"source": "肺癌",  "target": "肺腺癌", "label": "relation"},
+  {"source": "肺癌",  "target": "周围性肺癌", "label": "relation"}],
+  "secondary_edges": [
+    {"source": "小细胞肺癌", "relation": "", "target": "ipilimumab", "label": "property"},
+    {"source": "小细胞肺癌", "relation": "", "target": "checkpoint抑制剂", "label": "property"},
+    {"source": "小细胞肺癌", "relation": "", "target": "靶向治疗", "label": "property"},
+    {"source": "小细胞肺癌", "relation": "", "target": "免疫治疗", "label": "property"},
+    {"source": "非小细胞肺癌", "relation": "", "target": "Gefitinib", "label": "property"},
+    {"source": "非小细胞肺癌", "relation": "", "target": "Gemcitabine", "label": "property"},
+    {"source": "非小细胞肺癌", "relation": "", "target": "EGFR", "label": "property"},
+    {"source": "非小细胞肺癌", "relation": "", "target": "ALIMTA", "label": "property"},
+    {"source": "原发性肺癌", "relation": "", "target": "纵隔淋巴结", "label": "property"},
+    {"source": "原发性肺癌", "relation": "", "target": "支气管动脉", "label": "property"},
+    {"source": "原发性肺癌", "relation": "", "target": "肺叶切除", "label": "property"},
+    {"source": "原发性肺癌", "relation": "", "target": "胸腔积液", "label": "property"},
+    {"source": "原发性肺癌", "relation": "", "target": "肺结核", "label": "property"},
+    {"source": "原发性肺癌", "relation": "", "target": "肺鳞癌", "label": "property"},
+    {"source": "肺腺癌", "relation": "", "target": "A549/DDP", "label": "property"},
+    {"source": "肺腺癌", "relation": "", "target": "ALIMTA", "label": "property"},
+    {"source": "肺腺癌", "relation": "", "target": "TBRG4", "label": "property"},
+    {"source": "周围性肺癌", "relation": "", "target": "胸膜凹陷征", "label": "property"},
+    {"source": "周围性肺癌", "relation": "", "target": "结核球", "label": "property"}
+  ]}

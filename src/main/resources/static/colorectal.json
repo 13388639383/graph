@@ -1,0 +1,18 @@
+{"edges": [
+  {"source": "大肠癌",  "target": "结肠癌", "label": "relation"},
+  {"source": "大肠癌",  "target": "直肠癌", "label": "relation"}
+],
+  "secondary_edges": [
+    {"source": "结肠癌", "relation": "", "target": "肠梗阻", "label": "property"},
+    {"source": "结肠癌", "relation": "", "target": "左半结肠癌", "label": "property"},
+    {"source": "结肠癌", "relation": "", "target": "右半结肠癌", "label": "property"},
+    {"source": "结肠癌", "relation": "", "target": "腹腔镜", "label": "property"},
+    {"source": "直肠癌", "relation": "", "target": "低位直肠癌", "label": "property"},
+    {"source": "直肠癌", "relation": "", "target": "保肛手术", "label": "property"},
+    {"source": "直肠癌", "relation": "", "target": "肝转移", "label": "property"},
+    {"source": "直肠癌", "relation": "", "target": "局部复发", "label": "property"},
+    {"source": "直肠癌", "relation": "", "target": "TME", "label": "property"},
+    {"source": "直肠癌", "relation": "", "target": "开腹手术", "label": "property"},
+    {"source": "直肠癌", "relation": "", "target": "吻合口漏", "label": "property"},
+    {"source": "直肠癌", "relation": "", "target": "腹腔镜", "label": "property"}
+   ]}

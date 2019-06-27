@@ -1,0 +1,18 @@
+{"edges": [
+  {"source": "宫颈癌",  "target": "宫颈鳞癌", "label": "relation"},
+  {"source": "宫颈癌",  "target": "子宫内膜癌", "label": "relation"},
+  {"source": "宫颈癌",  "target": "HPV", "label": "relation"}],
+  "secondary_edges": [
+    {"source": "宫颈鳞癌", "relation": "", "target": "人乳头瘤病毒", "label": "property"},
+    {"source": "宫颈鳞癌", "relation": "", "target": "蛋白酶", "label": "property"},
+    {"source": "宫颈鳞癌", "relation": "", "target": "宫颈病变", "label": "property"},
+    {"source": "子宫内膜癌", "relation": "", "target": "肌层浸润", "label": "property"},
+    {"source": "子宫内膜癌", "relation": "", "target": "性甾体", "label": "property"},
+    {"source": "子宫内膜癌", "relation": "", "target": "雌性激素", "label": "property"},
+    {"source": "子宫内膜癌", "relation": "", "target": "子宫粘膜", "label": "property"},
+    {"source": "子宫内膜癌", "relation": "", "target": "女生殖器", "label": "property"},
+    {"source": "HPV", "relation": "", "target": "CIN", "label": "property"},
+    {"source": "HPV", "relation": "", "target": "DNA", "label": "property"},
+    {"source": "HPV", "relation": "", "target": "尖锐湿疣", "label": "property"},
+    {"source": "HPV", "relation": "", "target": "阴道镜检查", "label": "property"},
+    {"source": "HPV", "relation": "", "target": "TCT", "label": "property"}]}

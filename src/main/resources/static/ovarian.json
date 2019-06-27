@@ -1,0 +1,15 @@
+{"edges": [
+  {"source": "卵巢癌",  "target": "上皮性卵巢癌", "label": "relation"},
+  {"source": "卵巢癌",  "target": "卵巢恶性生殖细胞肿瘤", "label": "relation"}
+],
+  "secondary_edges": [
+    {"source": "上皮性卵巢癌", "relation": "", "target": "CA125", "label": "property"},
+    {"source": "上皮性卵巢癌", "relation": "", "target": "交界性", "label": "property"},
+    {"source": "上皮性卵巢癌", "relation": "", "target": "减灭术", "label": "property"},
+    {"source": "上皮性卵巢癌", "relation": "", "target": "miRNA", "label": "property"},
+    {"source": "卵巢恶性生殖细胞肿瘤", "relation": "", "target": "内胚窦瘤", "label": "property"},
+    {"source": "卵巢恶性生殖细胞肿瘤", "relation": "", "target": "未成熟畸胎瘤", "label": "property"},
+    {"source": "卵巢恶性生殖细胞肿瘤", "relation": "", "target": "保留生育功能", "label": "property"},
+    {"source": "卵巢恶性生殖细胞肿瘤", "relation": "", "target": "子宫内膜癌", "label": "property"},
+    {"source": "卵巢恶性生殖细胞肿瘤", "relation": "", "target": "宫颈癌", "label": "property"}
+  ]}
