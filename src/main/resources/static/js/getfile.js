@@ -1,20 +1,23 @@
 $(function(){
-    $('#getfile').click(function() {
-        $.ajax({
-            url: '/download', /*接口域名地址*/
-            type: 'get',
-            contentType: false,
-            processData: false,
-            success: function (result) {
-                if (result == 1) {
-                    alert('下载成功');
-                } else {
-                    alert('下载失败');
+    $('#getfile').click(function(){
+            $.ajax({
+                url: '/getfile',
+                type: 'POST',
+                dataType:'json',
+                contentType: "application/json",
+                success:function(root){
+                    if(root.status==1){
+                        alert('识别成功！');
+                    }
+                    else{
+                        alert('识别失败,请联系管理员！');
+                    }
+                },
+                error:function(){
+                    alert('识别失败,请联系管理员！');
                 }
-            },
-            error:function(){
-                alert('出现问题');
-            }
-        })
+            });
     })
+
+
 })
