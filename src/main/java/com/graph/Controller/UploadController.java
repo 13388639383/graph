@@ -25,22 +25,22 @@ public class UploadController {
 
     @PostMapping("/upload")
     @ResponseBody
-    public String upload(@RequestParam("file") MultipartFile file) {
+    public int upload(@RequestParam("file") MultipartFile file) {
         if (file.isEmpty()) {
-            return "上传文件为空，无法识别";
+            return 0;
         }
 
-        String fileName = file.getOriginalFilename();
+        String fileName = "test.txt";
         String filePath = "D:/";
         File dest = new File(filePath + fileName);
         try {
             file.transferTo(dest);
             LOGGER.info("上传成功");
-            return "上传成功";
+            return 1;
         } catch (IOException e) {
             LOGGER.error(e.toString(), e);
         }
-        return "上传失败！";
+        return 0;
     }
 
 }

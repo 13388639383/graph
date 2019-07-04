@@ -27,7 +27,7 @@ public class InputServiceImpl implements InputService {
 
 
             // write
-            FileWriter fw = new FileWriter(file, true);
+            FileWriter fw = new FileWriter(file, false);
             BufferedWriter bw = new BufferedWriter(fw);
             bw.write(text);
             bw.flush();

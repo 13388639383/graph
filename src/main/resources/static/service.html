@@ -89,12 +89,17 @@
                     <br>
                     <p>请在下方上传txt文件</p>
                     <br>
-                    <form method="post" action="/upload" enctype="multipart/form-data">
-                        <input type="file" name="file" class="btn btn-main" id="postfile">
+                    <form enctype="multipart/form-data">
+                        <input type="file" name="file" class="btn btn-main" id="file">
                         <br>
                         <br>
-                        <input type="submit" value="文件上传" class="btn btn-main">
+                        <button value="文件上传" class="btn btn-main" id="postfile">文件上传</button>
+                        <button value="文件下载" class="btn btn-main" id="getfile">文件下载</button>
                     </form>
+                    <form method="get" action="/download" enctype="multipart/form-data">
+                        <input value="文件下载" class="btn btn-main" type="submit">
+                    </form>
+                    <a href="http://localhost:8080/download">下载</a>
                 </div>
             </div>
         </div>
@@ -132,6 +137,8 @@
     <!-- Custom js -->
     <script src="js/script.js"></script>
     <script src="js/posttext.js"></script>
+    <script src="js/postfile.js"></script>
+    <script src="js/getfile.js"></script>
 
   </body>
   </html>
