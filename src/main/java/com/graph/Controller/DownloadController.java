@@ -16,7 +16,7 @@ public class DownloadController {
     public void download( HttpServletResponse response){
         //要上传的文件名字
         String FILE_DIR="D:/";
-        String fileName="test.txt";
+        String fileName="total.csv";
         //通过文件的保存文件夹路径加上文件的名字来获得文件
         File file=new File(FILE_DIR,fileName);
         //当文件存在

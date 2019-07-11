@@ -19,13 +19,11 @@ public class InputServiceImpl implements InputService {
     @Override
     public boolean inputText(String text) throws IOException{
         try {
-            String path = "D:\\test3.txt";
+            String path = "D:\\test.txt";
             File file = new File(path);
             if (!file.exists()) {
                 file.createNewFile();
             }
-
-
             // write
             FileWriter fw = new FileWriter(file, false);
             BufferedWriter bw = new BufferedWriter(fw);

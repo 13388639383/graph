@@ -258,22 +258,17 @@ text {
 
 
 		function tick() {
-				//path.attr("d", linkArc);//连接线
 				circle.attr("transform", transform1);//圆圈
 				text.attr("transform", transform2);//顶点文字
-
                 //更新连接线的位置
                 edges_line.attr("x1",function(d){ return d.source.x; });
                 edges_line.attr("y1",function(d){ return d.source.y; });
                 edges_line.attr("x2",function(d){ return d.target.x; });
                 edges_line.attr("y2",function(d){ return d.target.y; });
-
-
                 //更新连接线上文字的位置
                 edges_text.attr("x",function(d){ return (d.source.x + d.target.x) / 2 ; });
                 edges_text.attr("y",function(d){ return (d.source.y + d.target.y) / 2 ; });
 		}
-
 		function transform1(d) {
 			return "translate(" + d.x + "," + d.y + ")";
 		}
